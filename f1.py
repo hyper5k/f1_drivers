@@ -1,6 +1,8 @@
 F1_driver = ["Max Verstappen", "Lando Noris", "Lewis Hamilton", "Pierre Gasly", "Fernando Alonso"]
 
-F1_2025 = ["Oscar Piastri", "George Russell", "Kimi Antonelli", "Charles Leclerc", "Alex Albon", "Esteban Ocon", "Lance Stroll","Nico Hulkenberg", "Liam Lawson", "Isack Hadjar", "Carlso Sainz", "Yuki Tsunoda", ]
+F1_2025 = ["Oscar Piastri", "George Russell", "Kimi Antonelli", "Charles Leclerc", "Alex Albon", "Esteban Ocon", "Lance Stroll","Nico Hulkenberg", "Liam Lawson", "Isack Hadjar", "Carlso Sainz", "Yuki Tsunoda", "Oliver Bearman", "Jack Doohan", "Gabriel Bortoleto" ]
+
+print(F1_driver)
 
 
 while True:
@@ -20,6 +22,7 @@ while True:
     
     
     print("Updated driver list:", F1_driver)
+    print(F1_2025)
 
     driver_add = input("what driver do you want to add in? ")
 
